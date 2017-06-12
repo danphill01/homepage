@@ -1,3 +1,30 @@
-h1 {
-  color: red
+img {
+    height: 100px;
+    width: 100px;
+    padding-top: 3px;
+}
+
+td {
+    border: 1px solid gray;
+}
+
+th {
+    border: 2px solid black;
+}
+
+table {
+    border: 2px solid black;
+    margin-left: 50px;
+}
+
+tr td:nth-child(2) {
+    text-align: center;
+}
+
+.packmeeting {
+    background-color: gold
+}
+
+tr:first-child th:nth-child(3)  {
+    background-color: gold    
 }
